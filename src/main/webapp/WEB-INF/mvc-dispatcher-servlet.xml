@@ -10,10 +10,4 @@
 	<context:component-scan base-package="com.jcombat.controller" />
 	<mvc:annotation-driven />
 
-	<!-- To disable path extension check in the path variable of URI -->
-	<bean id="contentNegotiationManager"
-		class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
-		<property name="favorPathExtension" value="false" />
-	</bean>
-
 </beans>
